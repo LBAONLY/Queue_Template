@@ -1,0 +1,22 @@
+
+.google-font-header{
+    font-family: 'Montserrat';
+}
+
+.toLeft{
+    margin-left: -10px;
+}
+
+#queue_icon {
+    width: 32px;
+    height: 32px;
+    margin-top: -5px;
+}
+
+.nav-top-color{
+    background-color: rgba(88, 183, 241, 0.404);
+}
+
+.zindex{
+    z-index: 4030 !important;
+}
