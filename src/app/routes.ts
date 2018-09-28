@@ -5,8 +5,9 @@ import { BodyQueueComponent } from './body-queue/body-queue.component';
 
 
 export const appRoutes: Routes = [
-    { path: '', component: BodyHomeComponent , data: {depth: 1}},
-    { path: 'queue', component: BodyQueueComponent , data: {depth: 2}},
+    { path: '', component: BodyHomeComponent , data: {depth: 2}},
+    { path: 'queue', component: BodyQueueComponent , data: {depth: 1}},
+    { path: 'register', component: BodyHomeComponent , data: {depth: 2}},
 //     { path: '',
 //       runGuardsAndResolvers: 'always',
 //       canActivate: [AuthGuard],
